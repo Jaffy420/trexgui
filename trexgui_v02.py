@@ -988,9 +988,9 @@ def main():
         if kernel.get() != 0:
             new_bat = '{} --kernel {}'.format(new_bat, kernel.get())
         if gpu_init_mode.get() != 0:
-            new_bat = '{} --gpu_init_mode {}'.format(new_bat, gpu_init_mode.get())
+            new_bat = '{} --gpu-init-mode {}'.format(new_bat, gpu_init_mode.get())
         if dag_build_mode.get() != 0:
-            new_bat = '{} --dag_build_mode {}'.format(new_bat, dag_build_mode.get())
+            new_bat = '{} --dag-build-mode {}'.format(new_bat, dag_build_mode.get())
         if cclock_txt.get() != '' and cclock_txt.get() != '0':
             new_bat = '{} --cclock {}'.format(new_bat, cclock_txt.get())
         if mclock_txt.get() != '' and mclock_txt.get() != '0':
